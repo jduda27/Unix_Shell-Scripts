@@ -2,6 +2,8 @@
 This repository contains all scripts that I've created either for assignments, 
 inclass excersizes, or making my life easier.
 
+Below are brief descriptions of a couple of the scripts.
+
 ## browseScripts
 This file was created in order to navigate my inclass scripts by week, from there
 we look at all script files and read out what each program does before asking the user
