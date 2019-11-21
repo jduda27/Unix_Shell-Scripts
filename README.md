@@ -4,11 +4,10 @@ inclass excersizes, or making my life easier.
 
 Below are brief descriptions of a couple of the scripts.
 
-### browseScripts
+### [browseScripts](https://github.com/jduda27/Unix_Shell-Scripts/blob/master/browseScripts)
 This file was created in order to navigate my inclass scripts by week, from there
 we look at all script files and read out what each program does before asking the user
 to chose the script to open in vim to view or edit.
-[here](Unix_Shell-Scripts/browseScipts)
 
 ### mkscr
 Because how we ran our files in class was by making the files executable, to save time
