@@ -1,0 +1,12 @@
+#!/bin/bash
+# using the bash case statement
+case $USER in
+administrator | jduda | admin)
+	     echo "Welcome $USER"
+	     echo "Your home directory is $HOME";;
+testacct)
+	     echo "This is the test account";;
+agentsmith)
+	     echo "I'm watching you, Mr. Anderson.";;
+    
+esac

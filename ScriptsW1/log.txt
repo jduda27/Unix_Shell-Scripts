@@ -1,0 +1,17 @@
+Wed Oct 17 15:02:03 CDT 2018
+jduda    :0           2018-10-17 14:28 (:0)
+total 152
+-rw-r--r-- 1 jduda jduda     24 Sep  5 15:39 File 1
+-rw-r--r-- 1 jduda jduda     48 Sep  5 15:43 File 3
+drwxr-xr-x 2 jduda jduda   4096 Sep 10 14:49 L4
+-rw-r--r-- 1 jduda jduda 102131 Oct 17 14:55 log.181017
+-rw-r--r-- 1 jduda jduda     73 Oct 17 15:03 log.txt
+-rwxr--r-- 1 jduda jduda    243 Oct 15 15:12 script1.sh
+-rwxr--r-- 1 jduda jduda    237 Oct 15 15:09 script2.sh
+-rwxr--r-- 1 jduda jduda    152 Oct 15 15:42 script3.sh
+-rwxr--r-- 1 jduda jduda    114 Oct 15 15:17 script4.sh
+-rwxr--r-- 1 jduda jduda    121 Oct 15 15:39 script5.sh
+-rwxr--r-- 1 jduda jduda    125 Oct 15 15:44 script6.sh
+-rwxr--r-- 1 jduda jduda    116 Oct 17 14:55 script7.sh
+drwxr-xr-x 2 jduda jduda   4096 Oct 15 15:23 scriptDir
+drwxr-xr-x 6 jduda jduda   4096 Aug 31 00:21 VPN

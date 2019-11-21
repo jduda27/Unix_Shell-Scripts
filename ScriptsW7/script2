@@ -1,0 +1,10 @@
+#!/bin/bash
+# creates a backup of itself in the /tmp folder. Display path and filename and the contents
+
+temp=`mktemp -t backup.XXXX`
+cat script2 > $temp
+echo "Location of Backup: $temp"
+echo "The file contents are: "
+cat $temp
+
+

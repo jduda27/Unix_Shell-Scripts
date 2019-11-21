@@ -1,0 +1,36 @@
+#!/bin/bash
+# Checking file systems
+# -d - if file exists and is a directory.
+# -e - if file exists.
+# -f - if file exists and is a file.
+# -r - if the file exists and is readable.
+# -w - if the file exists and is writable.
+# -x - if the file exists and is executable.
+# -s - if the file exists and it is not empty. (empty = false)
+# -o - if the file exists and is owned by the current user.
+
+file=myfile.txt
+if [ -s $file ]
+then
+    echo "$file is not empty."
+else
+    if [ -e $file ]
+    then
+	echo "$file is empty!"
+    else
+	echo "$file does not exist!"
+    fi
+fi
+if [ -w $file ] && [ -r $file ]
+then
+    echo "$file is readable and  writable"
+elif [ -w $file ]
+then
+    
+    echo "$file is writable but not readable"
+else
+    echo "$file is not readble or writable"
+     
+fi
+
+     

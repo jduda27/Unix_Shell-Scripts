@@ -1,0 +1,7 @@
+#!/bin/bash
+# reads a file called my_dirs. list content of each director in long format. If the directory does not exist message should be suppressed
+for i in $(cat my_dirs)
+do
+	echo "Attempting to list $i"
+	ls -l $i 2> /dev/null
+done

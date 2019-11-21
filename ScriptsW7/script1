@@ -1,0 +1,11 @@
+#!/bin/bash
+# count to 10 with a 1 second pause. If Ctrl+C is hit do not term. list contents of the current directory in (-l option)
+
+trap 'echo;ls -l' SIGINT
+
+for ((i = 0 ; i <= 10 ; i ++))
+do
+	echo $i
+	sleep 1
+done
+

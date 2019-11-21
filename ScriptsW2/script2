@@ -1,0 +1,11 @@
+#!/bin/bash
+# Add the day of the month to the number of words in the long directory listing of the /etc directory (including all hidden files)
+
+d=`date +%d`
+echo $d
+
+now=$(ls -al /etc | wc -w)
+
+echo "today is $d + and there are $now words in /etc"
+ans=$[$d+$now]
+echo $ans

@@ -1,0 +1,5 @@
+#!/bin/bash
+# using expr command
+a=11;b=13;c=17;x=3;y=5
+ans=`expr $a \* $x \* $x + $b \* $x \* $y + $c \* $y \* $y`
+echo $ans

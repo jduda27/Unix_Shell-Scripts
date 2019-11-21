@@ -1,0 +1,32 @@
+#! /bin/bash
+# String comparisons
+# = - equals
+# != - not equals
+# < -less than
+# > -greater than
+testuser=jduda
+S1="HELLO"
+s2="hi"
+if [ $USER = $testuser ]
+then
+    echo "Welcome $testuser"
+else
+    echo "You are not the correct user."
+fi
+
+if [$s1 > $s2]
+then
+    echo "$s1 is greater than $s2"
+else if [$s2 > $s1]
+then
+    echo "$s2 is greater than $s1"
+else
+    echo "$s1 & $s2 they are equal"
+     fi
+fi
+
+	
+    
+	 
+     
+     

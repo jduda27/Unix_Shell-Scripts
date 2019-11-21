@@ -1,0 +1,5 @@
+#!/bin/bash
+# use fotune and espeak to display and read a fortune
+s=$(fortune); echo $s; echo $s | espeak
+
+

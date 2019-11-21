@@ -1,0 +1,15 @@
+#!/bin/bash
+# Putting the a temp file into the temp folder
+
+#-t for the mktemp command sends the file to the /tmp directory
+tempfile=$(mktemp -t testing.XXXXXX)i
+echo "The temp file was created $tempfile"
+exec 3>$tempfile
+
+echo "this is a test" >&3
+
+exec 3>&-
+
+cat $tempfile
+
+rm $tempfile

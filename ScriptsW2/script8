@@ -1,0 +1,23 @@
+#!/bin/bash
+# basic if-then statements
+
+user1=jjones
+user2=jonesj
+user3=johnjones
+user4=jduda
+
+if grep $user1 /etc/passwd
+then
+    echo "The correct username is $user1"
+elif grep $user2 /etc/passwd
+then
+    echo "The correct username is $user2"
+elif grep $user3 /etc/passwd
+then
+    echo "The correct username is $user3"
+elif grep $user4 /etc/passwd
+then
+    echo "The correct username is $user4"
+else
+    echo "User not found"
+fi

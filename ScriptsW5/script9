@@ -1,0 +1,11 @@
+#!/bin/bash
+# print error messages to null file if you don't want it to be saved
+
+exec 2< /dev/null
+
+if [ $1 -eq $1 ]
+then
+	echo "$1"
+else
+	echo "Not a integer"
+fi

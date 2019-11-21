@@ -1,0 +1,17 @@
+#!/bin/bash
+# creating and using a temp file
+
+tempfile=$(mktemp test24.XXXXX)
+exec 3>$tempfile
+
+echo "This script writes to the tempfile $tempfile"
+
+echo "All i see turns to brown" >&3
+echo "As the sun burns the ground" >&3
+echo "And my eyes fill with sand" >&3
+echo "As I scan this wasted land" >&3
+
+exec 3>&-
+cat $tempfile
+rm $tempfile
+

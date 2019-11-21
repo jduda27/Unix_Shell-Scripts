@@ -1,0 +1,10 @@
+#!/bin/bash
+# Here is our first script
+echo "First, we display the contents of the directory"
+ls -l
+sleep 3
+echo "Next, we make a directory called scriptDir"
+mkdir scriptDir
+echo "Finally, we clear and list the modified directory"
+clear
+ls -l

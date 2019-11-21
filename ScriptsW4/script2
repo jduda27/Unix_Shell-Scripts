@@ -1,0 +1,11 @@
+#!/bin/bash
+# decrement a value by half until it is equal to zero (integer division)
+
+var1=100
+until [ $var1 -eq 0 ]
+do
+    echo "the next number is $var1"
+    var1=$[ $var1 / 2 ]
+done
+
+      

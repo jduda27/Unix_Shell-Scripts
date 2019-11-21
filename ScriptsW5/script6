@@ -1,0 +1,8 @@
+#!/bin/bash
+# using an alternative file descriptor
+exec 3>>testout3
+
+echo "This should be displayed on the monitor."
+echo "This should be sotred in the file.">&3
+echo "This should also display on the monitor."
+

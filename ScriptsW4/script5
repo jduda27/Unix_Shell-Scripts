@@ -1,0 +1,14 @@
+#!/bin/bash
+# changing the IFS value
+oldIFS=$IFS
+IFS=$'\n'
+for entry in $(cat /etc/passwd)
+do
+    echo "The values in $entry- "
+    IFS=':'
+    for value in $entry
+    do
+	echo "     $value"
+    done
+done
+IFS=$oldIFS

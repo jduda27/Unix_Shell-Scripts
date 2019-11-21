@@ -1,0 +1,5 @@
+#!/bin/bash
+#returns the expression a*x^2 + B*X + C
+a=6; b=2; c=19; x=5
+ans=`expr $a \* $x \* $x + $b \* $x + $c`
+echo "The answer is $ans"

@@ -1,0 +1,10 @@
+#!/bin/bash
+# Compare strings
+s1="Apple"
+s2="apple"
+if [ $s1 \< $s2 ]
+then
+    echo "$s1 is less than $s2"
+else
+    echo "$s1 is not less than $s2"
+fi

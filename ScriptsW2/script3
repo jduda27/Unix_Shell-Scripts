@@ -1,0 +1,4 @@
+#!/bin/bash
+#floating point arithmetic
+ans=$(echo "scale=4; 3.44 / 1.29" | bc)
+echo "The answer is $ans"

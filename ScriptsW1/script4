@@ -1,0 +1,5 @@
+#!/bin/bash
+# Use environment variables
+echo "User information for userid: $USER"
+echo UID: $UID
+echo HOME: $HOME

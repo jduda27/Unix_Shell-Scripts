@@ -1,0 +1,13 @@
+#!/bin/bash
+# creating and using a temp file
+
+tempfile=$(mktemp -t tmp.XXXXX)
+
+echo "Back in black" > $tempfile
+echo "I hit the sack" >> $tempfile
+
+echo "The temp file is located at: $tempfile"
+
+cat $tempfile
+
+rm $tempfile

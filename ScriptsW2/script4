@@ -1,0 +1,6 @@
+#!/bin/bash
+# More bc in scripting
+var1=100.2
+var2=45.3
+ans=$(echo "scale=4; $var1 / $var2" | bc)
+echo $ans

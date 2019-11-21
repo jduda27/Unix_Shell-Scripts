@@ -1,0 +1,16 @@
+#!/bin/bash
+# find using inline redirect  a*x*x + b * x * y + c* y * y
+
+a=6.5
+b=2.2
+c=19.91
+x=5
+y=9
+
+ans=$(bc <<EOF
+scale=4
+($a*($x*$x)) + ($b*$x*$y) + ($c*($y*$y))
+EOF
+      )
+
+echo "The answer is $ans."

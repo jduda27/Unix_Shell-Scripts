@@ -1,0 +1,7 @@
+#!/bin/bash
+# testing STDERR message
+
+echo "Error: your input was bad!" >&2
+
+echo "This is normal output"
+

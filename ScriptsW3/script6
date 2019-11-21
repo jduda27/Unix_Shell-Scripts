@@ -1,0 +1,8 @@
+#!/bin/bash
+# the basic for loop
+List="Item 1 Item2 Item3 Item4"
+file=items.txt
+for var in $(cat $file)
+do
+    echo "The next item is $var"
+done

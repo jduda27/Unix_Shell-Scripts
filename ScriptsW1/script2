@@ -1,0 +1,9 @@
+#!/bin/bash
+# Here is out second script
+echo "First, we display the contents of the directory."
+ls -l
+echo "Next, we remove the scriptDir directory"
+rmdir scriptDir
+echo "Finally, we clear and list the modified directories."
+clear
+ls -l

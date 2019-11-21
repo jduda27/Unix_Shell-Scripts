@@ -1,0 +1,13 @@
+#!/bin/bash
+# reading values from a file
+file="items.txt"
+# $'\n' = new line character
+# you can string multiple delimiters together to set multiple delimiters
+# IFS is the variable that chooses the delimiter for reading in for loops
+prevIFS=$IFS
+IFS=$'\n'':'';'','
+for item in $(cat $file)
+do
+    echo "Processing $item"
+done
+IFS=$prevIFS

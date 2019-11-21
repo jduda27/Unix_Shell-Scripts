@@ -1,0 +1,7 @@
+#!/bin/bash
+# using for as a counting loop
+
+for (( i=0; i <= 100; i= i+10 ))
+do
+    echo "the next number is $i."
+done

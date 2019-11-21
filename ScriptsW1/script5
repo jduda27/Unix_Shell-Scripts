@@ -1,0 +1,5 @@
+#!/bin/bash
+# This script set's the path var to look ath the scriptDir
+$PATH=$Path:$HOME/Documents/scriptDir
+echo $PATH
+

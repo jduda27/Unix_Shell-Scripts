@@ -1,0 +1,8 @@
+#!/bin/bash
+# count from 100 to 0
+var1=0
+while (( $var1 <= 100 ))
+do
+    echo "The next number is $var1"
+    var1=$[ $var1 + 10 ]
+done

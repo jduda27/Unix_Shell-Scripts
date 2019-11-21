@@ -1,0 +1,18 @@
+#!/bin/bash
+# numeric comparisons
+# -eq  -equals
+# -ge  -greater than or equal
+# -gt  -greater than
+# -le  -less than or equal
+# -lt  -less than
+# -ne  -not equal
+
+var1=10
+var2=15
+
+if [$var1 -ge $var2]
+then
+    echo "Everything is nice!"
+else
+    echo "Everything is not so nice!
+fi

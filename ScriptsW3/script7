@@ -1,0 +1,7 @@
+#!/bin/bash
+# for loop example
+
+for var in $(ls /etc)
+do
+    echo "$var exists!"
+done

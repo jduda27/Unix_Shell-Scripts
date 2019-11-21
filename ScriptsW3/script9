@@ -1,0 +1,9 @@
+#!/bin/bash
+# read /etc/passwd and display the account and then all the fields
+OrgIFS=$IFS
+IFS='\n'':'' '
+for accounts in $(cat /etc/passwd)
+do
+    echo "Processing $accounts"
+done
+IFS=$OrgIFS

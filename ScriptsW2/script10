@@ -1,0 +1,14 @@
+#!/bin/bash
+# file comparison expressions
+
+d1=$(ls -al /usr/bin | wc -l)
+d2=$(ls -al /etc | wc -l)
+if [$d1 -gt $d2]
+then
+    echo "/usr/bin contains more objects than /etc"
+elif [$d2 -gt $d1]
+then
+    echo "/etc contains more objects than /usr/bin"    
+else
+    echo "/etc contains the same amount of objects as /usr/bin"
+fi
