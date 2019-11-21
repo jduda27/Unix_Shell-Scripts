@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#In whatever location you are at make an executable bash script with specified name or if it already exists open it with vim
 if [ -f $1 ]
 then
 	echo "This script already exists. It wil open now."
