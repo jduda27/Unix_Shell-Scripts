@@ -1,6 +1,6 @@
 <img src="https://miro.medium.com/max/1080/1*v4o2AXLIJaHSZmqYZk26qA.jpeg" alt="BASH" title="BASH Logo" width="500">
 
-# Unix Shell Scripts
+# BASH Shell Scripts
 This repository contains all scripts that I've created either for assignments, 
 inclass excersizes, or making my life easier.
 
