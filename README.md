@@ -15,3 +15,10 @@ this script takes in a input for the name of the script and then it gives it exe
 permission and then opens the new file in Vim with the first line #!/bin/bash already entered
 in making it a bash file. If a file of the same name already exists in the location you are in 
 it opens up the file in Vim.
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
