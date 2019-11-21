@@ -1,0 +1,46 @@
+#!/bin/bash
+# organizes the scripts into a easier more managabale ecosystem
+
+cd ~/Desktop/USS/myFiles
+
+ls | grep Scripts
+range=$(ls | grep Scripts | wc -l)
+
+read -p "What week would you like to view? (1-$range) " ans
+echo
+
+while [ $ans -gt $range ] || [ $ans == '' ]
+do
+	echo "Not a valid week. Plese try again."
+	read -p "What week would you like to view? (1-$range) " ans
+done
+
+cd "ScriptsW$ans"
+
+range=$(ls | grep cript | wc -l)
+
+i=1
+
+while [ $i -le $range ]
+do
+	echo "script$i"
+	cat -n "script$i" | grep -w "2" | grep "#" | cut -f2-
+	i=$[$i+1]
+done
+
+echo
+read -p "What script would you like to enter? (1-$range) " ans
+
+
+while [ $ans -gt $range ] || [ $ans == '' ]
+do
+	echo "Not a valid script. Please try again."
+	read -p "What script would you like to enter? (1-$range) " ans
+done
+
+if [ -f "script$ans" ]
+then
+	vi "script$ans"
+else
+	echo "failed to open file does not exist"
+fi
