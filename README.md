@@ -1,4 +1,4 @@
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](https://github.com/jduda27/Unix_Shell-Scripts/blob/master/1_v4o2AXLIJaHSZmqYZk26qA.jpeg)
 Format: ![Alt Text](url)]
 # Unix Shell Scripts
 This repository contains all scripts that I've created either for assignments, 
