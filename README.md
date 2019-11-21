@@ -1,5 +1,4 @@
-![GitHub Logo](https://miro.medium.com/max/1080/1*v4o2AXLIJaHSZmqYZk26qA.jpeg)
-Format: ![Alt Text](url)]
+![GitHub Logo](https://miro.medium.com/max/1080/1*v4o2AXLIJaHSZmqYZk26qA.jpeg | width = 250)
 # Unix Shell Scripts
 This repository contains all scripts that I've created either for assignments, 
 inclass excersizes, or making my life easier.
