@@ -1,1 +1,13 @@
 # Week 2
+### [Script 1](https://github.com/jduda27/Unix_Shell-Scripts/blob/master/ScriptsW2/script1)
+### [Script 2](https://github.com/jduda27/Unix_Shell-Scripts/blob/master/ScriptsW2/script2)
+### [Script 3](https://github.com/jduda27/Unix_Shell-Scripts/blob/master/ScriptsW2/script3)
+### [Script 4](https://github.com/jduda27/Unix_Shell-Scripts/blob/master/ScriptsW2/script4)
+### [Script 5](https://github.com/jduda27/Unix_Shell-Scripts/blob/master/ScriptsW2/script5)
+### [Script 6](https://github.com/jduda27/Unix_Shell-Scripts/blob/master/ScriptsW2/script6)
+### [Script 7](https://github.com/jduda27/Unix_Shell-Scripts/blob/master/ScriptsW2/script7)
+### [Script 8](https://github.com/jduda27/Unix_Shell-Scripts/blob/master/ScriptsW2/script8)
+### [Script 9](https://github.com/jduda27/Unix_Shell-Scripts/blob/master/ScriptsW2/script9)
+### [Script 10](https://github.com/jduda27/Unix_Shell-Scripts/blob/master/ScriptsW2/script10)
+### [Script 11](https://github.com/jduda27/Unix_Shell-Scripts/blob/master/ScriptsW2/script11)
+### [Script 12](https://github.com/jduda27/Unix_Shell-Scripts/blob/master/ScriptsW2/script12)
